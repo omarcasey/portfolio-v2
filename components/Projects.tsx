@@ -9,7 +9,6 @@ type Props = {
 }
 
 export default function Projects({ projects }: Props) {
-    console.log(projects)
     return (
         <motion.div
             initial={{ opacity: 0 }}
