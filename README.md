@@ -1,27 +1,21 @@
-# Next.js + Tailwind CSS Example
+# Welcome to my Portfolio Website!
+Thank you for visiting my portfolio website. This site showcases some of my recent projects and provides information about my background and experience as a frontend software developer.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## About Me
+I am a highly motivated and skilled frontend software developer with a passion for creating visually stunning and user-friendly web applications. I have a strong foundation in web development technologies and a proven track record of delivering high-quality projects on time.
 
-## Deploy your own
+## Featured Projects
+On my portfolio, you will find a selection of my most notable projects. These include:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Project 1: Brief description of project
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Project 2: Brief description of project
 
-## How to use
+Project 3: Brief description of project
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+To see the code for these projects, check out my [GitHub profile](https://github.com/omarcasey).
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Contact Me
+If you have any questions or would like to work with me, please don't hesitate to reach out! You can find my contact information at the bottom of this page.
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Thanks for stopping by!
