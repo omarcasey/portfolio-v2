@@ -18,4 +18,4 @@ To see the code for these projects, check out my [GitHub profile](https://github
 ## Contact Me
 If you have any questions or would like to work with me, please don't hesitate to reach out! You can find my contact information at the bottom of this page.
 
-Thanks for stopping by!
+Thanks for stopping by! :)
