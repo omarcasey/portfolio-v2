@@ -16,7 +16,7 @@ export default function Projects({ projects }: Props) {
             transition={{ duration: 1.5 }}
             className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full
             justify-evenly mx-auto items-center z-0'>
-            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
+            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl mt-[-20px]'>Projects</h3>
 
             <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
                 {projects?.map((project, i) => (
@@ -27,7 +27,7 @@ export default function Projects({ projects }: Props) {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1.2 }}
                             viewport={{ once: true }}
-                            src={urlFor(project?.image).url()} alt='projectimage' className='w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]' />
+                            src={urlFor(project?.image).url()} alt='projectimage' className='w-[300px] h-[200px] md:w-[450px] md:h-[300px] lg:w-[600px] lg:h-[400px] xl:w-[32rem] xl:h-[22rem]' />
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                             <h4 className='text-4xl font-semibold text-center'>
                                 <span className='underline decoration-[#f7ab0a]/50'>Case Study {i + 1} of {projects.length}: </span>

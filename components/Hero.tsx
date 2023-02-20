@@ -12,7 +12,7 @@ type Props = {
 
 export default function Hero({ pageinfo }: Props) {
     const [text] = useTypewriter({
-        words: [`${pageinfo?.name}`, 'Insane COD Player', 'Insane League Player', 'Insane Coder'],
+        words: [`${pageinfo?.name}`, '<FrontEndCodingWizard />', 'Guy-Who-Lifts-Weights.tsx', '{ teamPlayer: true }'],
         loop: true,
         delaySpeed: 2000
     })
@@ -23,7 +23,7 @@ export default function Hero({ pageinfo }: Props) {
             <Image className='relative rounded-full h-32 w-32 mx-auto object-cover' src={urlFor(pageinfo?.heroImage).url()} alt='profilePic' height={2000} width={2000}/>
             <div className='z-20'>
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[10px]'>{pageinfo?.role}</h2>
-                <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+                <h1 className='text-3xl lg:text-6xl font-semibold px-10'>
                     <span className='mr-3'>{text}</span>
                     <Cursor cursorColor='#F7AB0A' />
                 </h1>
