@@ -1,7 +1,7 @@
 # My Portfolio Website
 This is my personal portfolio website that showcases my skills, projects, and experiences as a developer. The website is built using modern front-end technologies, including React, Next.js, TypeScript, Tailwind CSS, Sanity, and Framer Motion. The website is fully responsive and optimized for a seamless user experience across all devices.
 
-# [www.omarcasey.com](https://www.omarcasey.com/)
+# https://www.omarcasey.com/
 
 ## Features
 - Home page with a brief introduction and links to my social media profiles
