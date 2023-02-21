@@ -25,4 +25,4 @@ Framer Motion
 ![portfolio website pic](https://user-images.githubusercontent.com/90979468/220246902-cd796afc-554e-4641-966c-de4c7250c447.png)
 
 ## Projects Section
-![portfolio project section](https://user-images.githubusercontent.com/90979468/220247017-06b1c564-c65f-4665-8e54-4bb85a0a339d.png)
+![portfolio project section](https://user-images.githubusercontent.com/90979468/220247190-bec811c9-84c5-4161-b147-6a2661a8ffed.png)
