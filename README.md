@@ -1,3 +1,26 @@
+# My Portfolio Website
+This is my personal portfolio website that showcases my skills, projects, and experiences as a developer. The website is built using modern front-end technologies, including React, Next.js, TypeScript, Tailwind CSS, Sanity, and Framer Motion. The website is fully responsive and optimized for a seamless user experience across all devices.
+
+## Features
+- Home page with a brief introduction and links to my social media profiles
+- Projects page with a list of my latest projects and links to their live demos and GitHub repositories
+- About page with a detailed overview of my skills, experiences, and education
+- Contact page with a contact form and my contact information
+- Smooth and responsive animations using Framer Motion
+- Easy-to-use content management system (CMS) using Sanity
+## Technologies Used
+React
+
+Next.js
+
+TypeScript
+
+Tailwind CSS
+
+Sanity
+
+Framer Motion
+
 # Welcome to my Portfolio Website!
 Thank you for visiting my portfolio website. This site showcases some of my recent projects and provides information about my background and experience as a frontend software developer.
 
