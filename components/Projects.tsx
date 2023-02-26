@@ -3,6 +3,7 @@ import React from 'react'
 import { urlFor } from '../sanity'
 import { Project } from '../typings'
 import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {
     projects: Project[]
@@ -22,12 +23,14 @@ export default function Projects({ projects }: Props) {
                 {projects?.map((project, i) => (
                     <div key={project._id} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center
                     justify-center p-20 md:p-30 h-screen'>
-                        <motion.img
-                            initial={{ y: -300, opacity: 0 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1.2 }}
-                            viewport={{ once: true }}
-                            src={urlFor(project?.image).url()} alt='projectimage' className='w-[300px] h-[200px] md:w-[450px] md:h-[300px] lg:w-[600px] lg:h-[400px] xl:w-[32rem] xl:h-[22rem]' />
+                        <Link href={project?.linkToBuild}>
+                            <motion.img
+                                initial={{ y: -300, opacity: 0 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 1.2 }}
+                                viewport={{ once: true }}
+                                src={urlFor(project?.image).url()} alt='projectimage' className='w-[300px] h-[200px] md:w-[450px] md:h-[300px] lg:w-[600px] lg:h-[400px] xl:w-[32rem] xl:h-[22rem]' />
+                        </Link>
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                             <h4 className='text-4xl font-semibold text-center'>
                                 <span className='underline decoration-[#f7ab0a]/50'>Case Study {i + 1} of {projects.length}: </span>
